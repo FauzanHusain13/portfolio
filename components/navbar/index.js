@@ -14,8 +14,9 @@ const Navbar = () => {
                 <Image src="/logo-fauzan.png" width={70} height={0} />
             </div>
 
-            <div className="hidden sm:flex justify-between items-center w-[40%] md:w-[28%] lg:w-[20%] text-sm">
+            <div className="hidden sm:flex justify-between items-center w-[55%] md:w-[50%] lg:w-[32%] text-sm">
                 <Link href="/">Projects</Link>
+                <Link href="/certificate">Certificate</Link>
                 <Link href="/">Contact</Link>
             </div>
         </div>

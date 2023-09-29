@@ -38,6 +38,7 @@ export default function Home() {
 
       <hr className="mt-20 sm:mt-12 w-1/2 m-auto" />
 
+      {/* project */}
       <div className="mt-24 px-8 lg:px-36">
         <h1 className="text-xl md:text-2xl">Projects</h1>
 
@@ -56,7 +57,20 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-24 px-8 lg:px-36">
+      {/* tech stack */}
+      <div className="mt-44 md:mt-56 px-8 lg:px-36">
+        <div className="grid grid-cols-3 md:grid-cols-6 gap-14 md:gap-0 items-center w-full">
+          <Image src="/tech-stack/mongodb.png" width={50} height={50} className="m-auto w-[40px] lg:w-[50px]" />
+          <Image src="/tech-stack/express.png" width={50} height={50} className="m-auto w-[40px] lg:w-[50px]" />
+          <Image src="/tech-stack/reactjs.png" width={50} height={50} className="m-auto w-[40px] lg:w-[50px]" />
+          <Image src="/tech-stack/nextjs.png" width={50} height={50} className="m-auto w-[40px] lg:w-[50px]" />
+          <Image src="/tech-stack/tailwindcss.png" width={50} height={50} className="m-auto w-[40px] lg:w-[50px]" />
+          <Image src="/tech-stack/nodejs.png" width={50} height={50} className="m-auto w-[40px] lg:w-[50px]" />
+        </div>
+      </div>
+
+      {/* contact */}
+      <div className="mt-44 md:mt-56 px-8 lg:px-36">
         <h1 className="text-2xl">Contact</h1>
 
         <div className="grid sm:grid-cols-2 mt-8">

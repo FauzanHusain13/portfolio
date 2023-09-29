@@ -1,6 +1,7 @@
 import Navbar from './navbar'
 import Footer from './footer'
 import { Poppins } from 'next/font/google'
+import Head from 'next/head'
 
 const poppins = Poppins({ 
   subsets: ['latin'], 
@@ -10,6 +11,9 @@ const poppins = Poppins({
 export default function Layout({ children }) {
   return (
     <>
+      <Head>
+        <title>Fauzan Husain</title>
+      </Head>
       <Navbar />
       <main className={`${poppins.className}`}>{children}</main>
       <Footer />
