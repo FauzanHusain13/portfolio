@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <div className={`${poppins.className} flex justify-center sm:justify-between px-20 py-6`}>
             <div>
-                <Image src="/logo-fauzan.png" width={70} height={0} />
+                <Image src="/logo/logo.png" width={25} height={0} />
             </div>
 
             <div className="hidden sm:flex justify-between items-center w-[55%] md:w-[50%] lg:w-[32%] text-sm">
