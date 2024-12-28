@@ -31,7 +31,7 @@ export default function Home() {
         </p>
 
         <div className='mt-12 flex gap-4'>
-          <Link href="/" className='flex items-center gap-2 text-white text-xs md:text-sm bg-[#D9D9D9]/20 hover:bg-[#D9D9D9]/30 px-5 md:px-6 py-3 rounded-lg transition-all duration-300'>
+          <Link href="https://wa.me/6282187107029" className='flex items-center gap-2 text-white text-xs md:text-sm bg-[#D9D9D9]/20 hover:bg-[#D9D9D9]/30 px-5 md:px-6 py-3 rounded-lg transition-all duration-300'>
             <Image src="/icon/whatsapp.png" width={20} height={0} />
             contact me
           </Link>
@@ -176,7 +176,7 @@ export default function Home() {
             </span>
           ))}
         </h1>
-        <p className='text-xs md:text-sm text-white/60 mt-2'>the technology i use</p>
+        <p className='text-xs md:text-sm text-white/60 mt-2'>my internship in tech company</p>
 
         <div className='grid grid-cols-2 md:grid-cols-3 mt-10'>
           <div className='bg-[#3D3BF3]/25 hover:bg-[#3D3BF3]/10 hover:border transition-all duration-300 cursor-pointer text-white p-6 rounded-xl'>
