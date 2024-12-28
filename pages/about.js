@@ -24,23 +24,23 @@ const About = () => {
                             className="flex-1 w-full max-h-[400px] rounded-2xl object-cover object-bottom"
                         />
 
-                        <div className="flex justify-between flex-col flex-1 leading-loose">
+                        <div className="flex justify-between gap-4 flex-col flex-1 leading-loose">
                             <div>
                                 <p className="mt-4">Saya belajar pembuatan website disaat kelas 2 smp secara otodidak dan melanjutkan belajar di smk di jurusan rekayasa perangkat lunak.</p>
-                                <p className="mt-8">Sekarang saya mengambil jurusan Rekayasa Perangkat Lunak di Telkom University. </p>
+                                <p className="mt-8">Sekarang saya mengambil jurusan Rekayasa Perangkat Lunak di <span className="font-semibold">Telkom University</span>.</p>
                                 <p className="mt-8">Saya suka olahraga dan sesekali nonton film.</p>
                             </div>
 
                             <div className="mb-12">
                                 <p className="text-sm">follow my:</p>
-                                <div className="flex gap-10 mt-8">
-                                    <Link href="/">
+                                <div className="flex gap-10 mt-5">
+                                    <Link href="https://www.instagram.com/_fauzanhusain/">
                                         <Image src="/icon/instagram.png" width={25} height={25} />
                                     </Link>
-                                    <Link href="/">
+                                    <Link href="https://www.linkedin.com/in/fauzan-husain-182851246/">
                                         <Image src="/icon/linkedin.png" width={25} height={25} />
                                     </Link>
-                                    <Link href="/">
+                                    <Link href="https://github.com/FauzanHusain13">
                                         <Image src="/icon/github.png" width={25} height={25} />
                                     </Link>
                                 </div>

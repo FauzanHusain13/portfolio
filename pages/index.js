@@ -197,7 +197,7 @@ export default function Home() {
             <Link href="https://www.linkedin.com/in/fauzan-husain-182851246/">
               <Image src="/icon/linkedin.png" width={30} height={0} />
             </Link>
-            <Link href="/=https://github.com/FauzanHusain13">
+            <Link href="https://github.com/FauzanHusain13">
               <Image src="/icon/github.png" width={30} height={0} />
             </Link>
           </div>
