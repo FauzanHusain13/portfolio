@@ -1,5 +1,3 @@
-import Navbar from './navbar'
-import Footer from './footer'
 import { Poppins } from 'next/font/google'
 import Head from 'next/head'
 

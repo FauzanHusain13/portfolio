@@ -1,11 +1,15 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import Navbar from '@/components/navbar'
+import ParticlesComponent from '@/components/particles'
 
 export default function Home() {
   return (
     <div className="pb-10 md:pb-14">
+      <ParticlesComponent id="particles" />
+      <Navbar />
       {/* header */}
-      <div className='w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-10 md:mt-14'>
+      <div className='relative w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-10 md:mt-14'>
         <p className="text-white text-sm md:text-base">Hello! I am fauzan husain</p>
         <h1 className='text-5xl md:text-7xl mt-2 font-bold text-white'>
           {`I'm Fullstack Javascript`.split('').map((char, index) => (
@@ -39,7 +43,7 @@ export default function Home() {
       </div>
 
       {/* projects */}
-      <div className="w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-24">
+      <div className="relative w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-24">
         <h1 className='text-2xl md:text-4xl text-white font-bold'>
           {'PROJECTS'.split('').map((char, index) => (
             <span
@@ -89,7 +93,7 @@ export default function Home() {
       </div>
 
       {/* e-certificate */}
-      <div className='w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-24'>
+      <div className='relative w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-24'>
         <h1 className='text-2xl md:text-4xl text-white font-bold'>
           {'E-CERTIFICATE'.split('').map((char, index) => (
             <span
@@ -133,7 +137,7 @@ export default function Home() {
       </div>
 
       {/* technology */}
-      <div className="w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-24">
+      <div className="relative w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-24">
         <h1 className='text-2xl md:text-4xl text-center text-white font-bold'>
           {'TECHNOLOGY'.split('').map((char, index) => (
             <span
@@ -161,7 +165,7 @@ export default function Home() {
       </div>
 
       {/* internship */}
-      <div className="w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-28">
+      <div className="relative w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-28">
         <h1 className='text-2xl md:text-4xl text-white font-bold'>
           {'INTERNSHIP'.split('').map((char, index) => (
             <span
@@ -183,7 +187,7 @@ export default function Home() {
       </div>
 
       {/* footer */}
-      <div className="w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-28">
+      <div className="relative w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-28">
           <p className='text-center text-sm text-white'>follow my:</p>
 
           <div className='flex justify-center gap-12 mt-10'>
