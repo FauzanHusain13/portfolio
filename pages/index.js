@@ -35,7 +35,7 @@ export default function Home() {
             <Image src="/icon/whatsapp.png" width={20} height={0} />
             contact me
           </Link>
-          <Link href="/" className='flex items-center gap-2 text-white text-xs md:text-sm bg-[#3D3BF3] hover:bg-[#3835d8] px-5 md:px-6 py-3 rounded-lg transition-all duration-300'>
+          <Link href="/about" className='flex items-center gap-2 text-white text-xs md:text-sm bg-[#3D3BF3] hover:bg-[#3835d8] px-5 md:px-6 py-3 rounded-lg transition-all duration-300'>
             <Image src="/icon/info.png" width={20} height={0} />
             about me
           </Link>
@@ -191,13 +191,13 @@ export default function Home() {
           <p className='text-center text-sm text-white'>follow my:</p>
 
           <div className='flex justify-center gap-12 mt-10'>
-            <Link href="/">
+            <Link href="https://www.instagram.com/_fauzanhusain/">
               <Image src="/icon/instagram.png" width={30} height={0} />
             </Link>
-            <Link href="/">
+            <Link href="https://www.linkedin.com/in/fauzan-husain-182851246/">
               <Image src="/icon/linkedin.png" width={30} height={0} />
             </Link>
-            <Link href="/">
+            <Link href="/=https://github.com/FauzanHusain13">
               <Image src="/icon/github.png" width={30} height={0} />
             </Link>
           </div>
