@@ -14,9 +14,7 @@ export default function Layout({ children }) {
       <Head>
         <title>Fauzan Husain</title>
       </Head>
-      <Navbar />
       <main className={`${poppins.className}`}>{children}</main>
-      <Footer />
     </>
   )
 }
