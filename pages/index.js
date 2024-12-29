@@ -62,7 +62,7 @@ export default function Home() {
             <div className='px-2 md:px-4 text-white'>
               <h2 className='text-lg md:text-xl font-semibold mt-2'>Virgo</h2>
               <p className='text-xs md:text-sm mt-1 opacity-60'>Virgo is a social media application with features like social media in general</p>
-              <Link href="/" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs mt-5 md:mt-8 p-3 rounded-lg transition-all duration-300'>View Details</Link>
+              <Link href="https://github.com/FauzanHusain13/virgo-app-server" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs mt-5 md:mt-8 p-3 rounded-lg transition-all duration-300'>View Details</Link>
             </div>
           </div>
           <div className='bg-[#D9D9D9]/10 p-2 pt-3 pb-5 rounded-lg mx-auto'>
@@ -70,7 +70,7 @@ export default function Home() {
             <div className='px-2 md:px-4 text-white'>
               <h2 className='text-lg md:text-xl font-semibold mt-2'>E-commerce</h2>
               <p className='text-xs md:text-sm mt-1 opacity-60'>This application has features like e commerce in general, except that payments are still manual.</p>
-              <Link href="/" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs mt-5 md:mt-8 p-3 rounded-lg transition-all duration-300'>View Details</Link>
+              <Link href="https://github.com/FauzanHusain13/e-commerce-server" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs mt-5 md:mt-8 p-3 rounded-lg transition-all duration-300'>View Details</Link>
             </div>
           </div>
           <div className='bg-[#D9D9D9]/10 p-2 pt-3 pb-5 rounded-lg mx-auto'>
@@ -78,7 +78,7 @@ export default function Home() {
             <div className='px-2 md:px-4 text-white'>
               <h2 className='text-lg md:text-xl font-semibold mt-2'>Realtime chat app</h2>
               <p className='text-xs md:text-sm mt-1 opacity-60'>This application is a chat application between users in real time</p>
-              <Link href="/" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs mt-5 md:mt-8 p-3 rounded-lg transition-all duration-300'>View Details</Link>
+              <Link href="https://github.com/FauzanHusain13/server-chat" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs mt-5 md:mt-8 p-3 rounded-lg transition-all duration-300'>View Details</Link>
             </div>
           </div>
           <div className='bg-[#D9D9D9]/10 p-2 pt-3 pb-5 rounded-lg mx-auto'>
@@ -86,7 +86,7 @@ export default function Home() {
             <div className='px-2 md:px-4 text-white'>
               <h2 className='text-lg md:text-xl font-semibold mt-2'>NPM:forest-api</h2>
               <p className='text-xs md:text-sm mt-1 opacity-60'>npm project for get data from social media</p>
-              <Link href="/" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs mt-5 md:mt-8 p-3 rounded-lg transition-all duration-300'>View Details</Link>
+              <Link href="https://www.npmjs.com/package/forest-api" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs mt-5 md:mt-8 p-3 rounded-lg transition-all duration-300'>View Details</Link>
             </div>
           </div>
         </div>
