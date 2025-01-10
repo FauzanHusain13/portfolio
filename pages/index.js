@@ -31,7 +31,7 @@ export default function Home() {
         </p>
 
         <div className='mt-12 flex gap-4'>
-          <Link href="https://wa.me/6282187107029" className='flex items-center gap-2 text-white text-xs md:text-sm bg-[#D9D9D9]/20 hover:bg-[#D9D9D9]/30 px-5 md:px-6 py-3 rounded-lg transition-all duration-300'>
+          <Link href="https://wa.me/6289684053091" className='flex items-center gap-2 text-white text-xs md:text-sm bg-[#D9D9D9]/20 hover:bg-[#D9D9D9]/30 px-5 md:px-6 py-3 rounded-lg transition-all duration-300'>
             <Image src="/icon/whatsapp.png" width={20} height={0} />
             contact me
           </Link>
