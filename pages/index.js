@@ -66,6 +66,14 @@ export default function Home() {
             </div>
           </div>
           <div className='bg-[#D9D9D9]/10 p-2 pt-3 pb-5 rounded-lg mx-auto'>
+            <Image src="/projects/kebunmu.png" width={500} height={0} className='rounded-lg' />
+            <div className='px-2 md:px-4 text-white'>
+              <h2 className='text-lg md:text-xl font-semibold mt-2'>Kebunmu</h2>
+              <p className='text-xs md:text-sm mt-1 opacity-60'>so That farmers make their farms more recorded and have features integrated by Artificial Inttelegence</p>
+              <Link href="https://kebunmu.vercel.app" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs mt-5 md:mt-8 p-3 rounded-lg transition-all duration-300'>View Details</Link>
+            </div>
+          </div>
+          <div className='bg-[#D9D9D9]/10 p-2 pt-3 pb-5 rounded-lg mx-auto'>
             <Image src="/projects/e-commerce.png" width={500} height={0} className='rounded-lg' />
             <div className='px-2 md:px-4 text-white'>
               <h2 className='text-lg md:text-xl font-semibold mt-2'>E-commerce</h2>
