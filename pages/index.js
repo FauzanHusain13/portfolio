@@ -180,6 +180,12 @@ export default function Home() {
             <Image src="/icon/redis.png" width={40} height={0} className='mx-auto w-[40px] 2xl:w-[60px]' />
             <Image src="/icon/figma.png" width={40} height={0} className='mx-auto w-[40px] 2xl:w-[60px]' />
         </div>
+
+        <Link href="/investment">
+          <div className='text-white text-center mt-16 rounded-lg mx-auto w-[60%] md:w-[40%] lg:w-[30%] text-sm p-4 bg-[#3D3BF3] hover:bg-[#3835d8] transition-all duration-300'>
+            Portfolio Investment
+          </div>
+        </Link>
       </div>
 
       {/* internship */}
