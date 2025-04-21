@@ -19,14 +19,14 @@ const Investment = () => {
                 <div className="text-white mt-20 md:mt-36">
                     <h2 className="text-3xl md:text-4xl 2xl:text-5xl">My Liquid Assets</h2>
 
-                    <div className="mt-8 md:-12 flex gap-8 justify-start items-center bg-white px-8 rounded-lg">
-                        <div className="flex-shrink-0">
+                    <div className="mt-8 md:-12 grid gap-8 grid-cols-2 md:grid-cols-3 items-center justify-center bg-white px-8 pt-6 md:pt-0 rounded-lg">
+                        <div className="flex-shrink-0 mx-auto">
                             <Image className="w-[60px] 2xl:w-[80px]" src="/icon/bitcoin.png" width={60} height={60} alt="Bitcoin" />
                         </div>
-                        <div className="flex-shrink-0">
+                        <div className="flex-shrink-0 mx-auto">
                             <Image className="w-[60px] 2xl:w-[80px]" src="/icon/ethereum.png" width={60} height={60} alt="Ethereum" />
                         </div>
-                        <div className="flex-shrink-0">
+                        <div className="flex-shrink-0 mx-auto">
                             <Image className="w-[200px] 2xl:w-[250px]" src="/icon/nvidia.png" width={200} height={60} alt="Nvidia" />
                         </div>
                     </div>
