@@ -151,6 +151,19 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className='flex flex-col md:flex-row md:gap-4 bg-[#D9D9D9]/10 p-3 rounded-lg'>
+            <Image src="/certificate/certificate-3.png" width={200} height={0} className='rounded-lg w-full flex-1 object-cover' />
+
+            <div className='text-white flex flex-col justify-between flex-1'>
+              <div>
+                <h2 className='text-lg md:text-xl 2xl:text-3xl font-semibold mt-4 lg:mt-6 2xl:mt-8'>Bootcamp: Backend Javascript Developer</h2>
+                <p className='text-xs md:text-sm 2xl:text-lg mt-4 2xl:mt-6 opacity-60'>In this bootcamp I learned by working on several tasks, <br className='hidden lg:block' /> and the final project was to create an API project <br className='hidden lg:block' /> that connects to the database.</p>
+              </div>
+              <div className='mb-6 mt-6'>
+                <Image src="/tech/tech1.png" width={200} height={0} className='w-[150px] md:w-[200px] 2xl:w-[300px]' />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
