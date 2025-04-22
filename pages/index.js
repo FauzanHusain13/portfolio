@@ -45,7 +45,7 @@ export default function Home() {
       {/* projects */}
       <div className="relative w-[95%] sm:w-[90%] lg:w-[80%] mx-auto mt-20 md:mt-24">
         <h1 className='text-2xl md:text-4xl 2xl:text-6xl text-white font-bold'>
-          {'PROJECTS'.split('').map((char, index) => (
+          {'REAL PROJECTS'.split('').map((char, index) => (
             <span
               key={index}
               className='inline-block transition-all hover:bg-[#9694FF] hover:rounded-full duration-200 hover:scale-125 hover:rotate-6 cursor-pointer'
