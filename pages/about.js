@@ -29,8 +29,15 @@ const About = () => {
 
                         <div className="flex justify-between gap-4 flex-col flex-1 leading-loose 2xl:leading-loose 2xl:text-xl">
                             <div>
-                                <p className="mt-4 2xl:mt-0">I started learning web development by myself back in junior high school (around 8th grade), then went on to study software engineering in vocational high school.</p>
-                                <p className="mt-8">Now, I’m majoring in Software Engineering at <span className="font-semibold">Telkom University</span>.</p>
+                                <p className="mt-4 2xl:mt-0">
+                                    I started learning web development by myself back in junior high school (around 8th grade), then went on to study software engineering in vocational high school.
+                                </p>
+                                <p className="mt-8">
+                                    Now, I’m majoring in Software Engineering at <span className="font-semibold">Telkom University</span>.
+                                </p>
+                                <p className="mt-8">
+                                    I also joined a fullstack web development bootcamp at <span className="font-semibold">Harisenin.com</span>, where I specialized in backend development to deepen my skills in building scalable and efficient server-side applications.
+                                </p>
                                 <p className="mt-8">Outside of coding, I enjoy sports and watching movies every now and then.</p>
                             </div>
 

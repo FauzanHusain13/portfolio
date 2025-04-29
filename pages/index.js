@@ -72,7 +72,7 @@ export default function Home() {
               <Image src="/projects/kebunmu.png" width={500} height={0} className='rounded-lg w-full mx-auto' />
               <div className='text-white'>
                 <h2 className='text-lg 2xl:text-2xl md:text-xl font-semibold mt-2 2xl:mt-4'>Kebunmu</h2>
-                <p className='text-xs md:text-sm 2xl:text-lg mt-1 2xl:mt-2 opacity-60'>so That farmers make their farms more recorded and have features integrated by Artificial Inttelegence</p>
+                <p className='text-xs md:text-sm 2xl:text-lg mt-1 2xl:mt-2 opacity-60'>Helping farmers to record document about their farm with integrated Artificial Intelligence features</p>
                 <Link href="https://kebunmu.vercel.app" className='flex justify-center bg-[#3D3BF3] hover:bg-[#3734d3] text-xs 2xl:text-base mt-5 md:mt-8 p-3 2xl:p-5 rounded-lg transition-all duration-300'>View Details</Link>
               </div>
             </div>
@@ -219,6 +219,7 @@ export default function Home() {
           <div className='bg-[#3D3BF3]/25 hover:bg-[#3D3BF3]/10 hover:border transition-all duration-300 cursor-pointer text-white p-6 rounded-xl'>
             <h1 className='2xl:text-xl'>PT TRANS NASIONAL TEKNOLOGI</h1>
             <p className='opacity-60 text-sm 2xl:text-lg mt-1'>3 month</p>
+            <Image src="/tech/tech1.png" width={200} height={0} className='mt-2' />
           </div>
         </div>
       </div>
