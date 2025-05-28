@@ -15,7 +15,10 @@ const About = () => {
                 {/* content */}
                 <div className="mt-10 md:mt-14 text-white/80 text-sm md:text-base">
                     <p className="md:w-[75%] leading-loose 2xl:leading-loose 2xl:text-xl">
-                        Hi! I’m Achmad Fauzan Husain — a fullstack web developer who also enjoys designing websites. Right now, I’m chasing my dreams while enjoying every step of the journey. People usually wish me a happy birthday on August 13th!
+                        Hi! I’m Achmad Fauzan Husain — Graduated from high school majoring in software engineering and continued studies at Telkom University in the same field. Started
+learning software development in the second grade of junior high school and completed an internship in the second grade of vocational
+high school. Currently pursuing studies while attending a bootcamp. Curious about backend technologies like Node.js and Express.js.
+Typically builds projects using React.js, Next.js, Tailwind CSS, Axios, Node.js, Express.js, MongoDB, JWT, and Firebase
                     </p>
 
                     <div className="mt-8 flex flex-col sm:flex-row gap-5">
