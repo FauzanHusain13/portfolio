@@ -50,10 +50,10 @@ Typically builds projects using React.js, Next.js, Tailwind CSS, Axios, Node.js,
                                     <Link href="https://www.instagram.com/_fauzanhusain/">
                                         <Image src="/icon/instagram.png" width={25} height={0} className="2xl:w-[35px]" alt="Instagram" />
                                     </Link>
-                                    <Link href="https://www.linkedin.com/in/fauzan-husain-182851246/">
+                                    <Link href="https://www.linkedin.com/in/achmadfauzanhusain">
                                         <Image src="/icon/linkedin.png" width={25} height={0} className="2xl:w-[35px]" alt="LinkedIn" />
                                     </Link>
-                                    <Link href="https://github.com/FauzanHusain13">
+                                    <Link href="https://github.com/achmadfauzanhusain">
                                         <Image src="/icon/github.png" width={25} height={0} className="2xl:w-[35px]" alt="GitHub" />
                                     </Link>
                                 </div>

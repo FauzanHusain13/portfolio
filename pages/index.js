@@ -232,10 +232,10 @@ export default function Home() {
             <Link href="https://www.instagram.com/_fauzanhusain/">
               <Image src="/icon/instagram.png" width={30} height={0} className='2xl:w-[40px]' />
             </Link>
-            <Link href="https://www.linkedin.com/in/fauzan-husain-182851246/">
+            <Link href="https://www.linkedin.com/in/achmadfauzanhusain">
               <Image src="/icon/linkedin.png" width={30} height={0} className='2xl:w-[40px]' />
             </Link>
-            <Link href="https://github.com/FauzanHusain13">
+            <Link href="https://github.com/achmadfauzanhusain">
               <Image src="/icon/github.png" width={30} height={0} className='2xl:w-[40px]' />
             </Link>
           </div>
